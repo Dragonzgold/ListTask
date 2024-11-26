@@ -1,0 +1,15 @@
+body {
+  background: linear-gradient(90deg, rgba(7, 0, 122, 0.75) 0%, rgba(0, 0, 79, 0.7465473989422402) 34%, rgba(9, 9, 121, 0.75) 60%, rgba(0, 112, 135, 0.75) 95%);
+}
+
+.titleListTask {
+  padding-top: 2.5vh;
+  display: flex;
+  justify-content: center;
+}
+
+.containerText {
+  text-align: center;
+  font-size: 6vw;
+  margin: 0px 8vw 0px 8vw;
+}
