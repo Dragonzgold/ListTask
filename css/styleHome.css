@@ -14,6 +14,11 @@ body {
   margin-bottom: 5vh;
 }
 
+.containerTable{
+  width: 85%;
+  margin: 0 auto;
+}
+
 thead{
   text-align: center;
   font-weight: bold;
@@ -35,6 +40,10 @@ input[type="date"]{
 }
 
 input{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
   text-align: center;
   font-weight: bold;
 }
@@ -42,6 +51,7 @@ input{
 .conatinerBox{
   margin-top: 10vh;
   width: 100%;
+  color: antiquewhite;
 }
 
 h3{
@@ -57,4 +67,19 @@ form {
 
 #buttonSave{
   margin-top: 3vh;
+  width: 20vh;
+}
+
+@media screen and (max-width: 600px) {
+  .containerTable{
+    width: 90vw;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 446px) {
+  .containerTable{
+    width: 110vw;
+    margin: 0 auto;
+  }
 }

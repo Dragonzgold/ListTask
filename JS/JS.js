@@ -8,7 +8,6 @@ buttonEvent.addEventListener('click', function () {
     alert("usted introdujo un campo vacio. Por favor rellenelo con una tarea")
     return;
   }
-
   const newRow = document.createElement('tr');
 
   const taskCell = document.createElement('td');
@@ -35,10 +34,9 @@ buttonEvent.addEventListener('click', function () {
   newRow.appendChild(buttonCell)
 
   taskList.appendChild(newRow);
-
 })
 
-taskList.addEventListener('click', function(event) {
+taskList.addEventListener('click', function (event) {
   if (event.target.tagName === 'BUTTON') {
     event.target.parentNode.parentNode.remove();
   }
